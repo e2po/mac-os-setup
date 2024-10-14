@@ -12,10 +12,10 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Check out the codebase
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Uninstall GitHub Actions' built-in Homebrew
         run: ./tests/uninstall-homebrew.sh
 
-      - name: Test Homebrew installation
-        run: ./install/homebrew.sh
+      - name: Test install script
+        run: ./install.sh

@@ -2,4 +2,4 @@
 set -e
 
 # Install Homebrew
-source ~/.local/share/mac-os-setup/install/homebrew.sh
+source ./install/homebrew.sh
