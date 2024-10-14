@@ -3,3 +3,6 @@ set -e
 
 # Install Homebrew
 source ~/.local/share/mac-os-setup/install/homebrew.sh
+
+# Install Brewfile
+source ~/.local/share/mac-os-setup/install/brewfile.sh

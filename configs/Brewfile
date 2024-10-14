@@ -1,0 +1,7 @@
+cask "figma"
+cask "flipper"
+cask "google-chrome"
+cask "google-drive"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "vscode"
