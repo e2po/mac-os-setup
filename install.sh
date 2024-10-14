@@ -2,4 +2,4 @@
 set -e
 
 # Install Homebrew
-source ~/install/homebrew.sh
+source ./install/homebrew.sh
