@@ -18,7 +18,7 @@ jobs:
       - name: Move files
         run: |
           mkdir -p ~/.local/share/mac-os-setup
-          mv * ~/.local.share/mac-os-setup
+          mv * ~/.local/share/mac-os-setup
 
       - name: Uninstall GitHub Actions' built-in Homebrew
         run: . ~/.local/share/mac-os-setup/tests/uninstall-homebrew.sh
