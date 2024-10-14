@@ -1,0 +1,22 @@
+---
+name: CI
+'on':
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  integration:
+    name: Integration
+    runs-on: macos-latest
+
+  steps:
+    - name: Check out the codebase.
+      uses: actions/checkout@v2
+
+    - name: Uninstall GitHub Actions' built-in Homebrew.
+      run: .github/tests/uninstall-homebrew.sh
+
+    - name: Test Homebrew installation
+      run: ./install/brew.sh
