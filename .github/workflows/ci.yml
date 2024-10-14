@@ -13,8 +13,12 @@ jobs:
     steps:
       - name: Check out the codebase
         uses: actions/checkout@v4
-        with:
-          path: /Users/runner/.local/share/mac-os-setup
+
+      # https://github.com/actions/checkout/issues/197
+      - name: Move files
+        run: |
+          mkdir -p ~/.local.share/mac-os-setup
+          mv * ~/.local.share/mac-os-setup
 
       - name: Uninstall GitHub Actions' built-in Homebrew
         run: . ~/.local/share/mac-os-setup/tests/uninstall-homebrew.sh
