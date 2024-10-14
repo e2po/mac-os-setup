@@ -13,9 +13,11 @@ jobs:
     steps:
       - name: Check out the codebase
         uses: actions/checkout@v4
+        with:
+          path: ~/.local/share/mac-os-setup
 
       - name: Uninstall GitHub Actions' built-in Homebrew
-        run: ./tests/uninstall-homebrew.sh
+        run: . ~/.local/share/mac-os-setup/tests/uninstall-homebrew.sh
 
       - name: Test install script
-        run: ./install.sh
+        run: . ~/.local/share/mac-os-setup/install.sh
