@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Uninstall GitHub Actions' built-in Homebrew
-        run: .github/tests/uninstall-homebrew.sh
+        run: ./tests/uninstall-homebrew.sh
 
       - name: Test Homebrew installation
         run: ./install/brew.sh
