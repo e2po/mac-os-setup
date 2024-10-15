@@ -4,6 +4,9 @@ set -e
 # Install Jetbrains Mono fonts
 source ~/.local/share/mac-os-setup/install/jetbrains-mono-fonts.sh
 
+# Install Oh My Zsh
+source ~/.local/share/mac-os-setup/install/oh-my-zsh.sh
+
 # Install Homebrew
 source ~/.local/share/mac-os-setup/install/homebrew.sh
 
