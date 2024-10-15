@@ -1,9 +1,6 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-# Install Jetbrains Mono fonts
-source ~/.local/share/mac-os-setup/install/jetbrains-mono-fonts.sh
-
 # Install Oh My Zsh
 source ~/.local/share/mac-os-setup/install/oh-my-zsh.sh
 

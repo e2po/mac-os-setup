@@ -1,5 +1,6 @@
 cask "figma"
 cask "flipper"
+cask "font-jetbrains-mono"
 cask "google-chrome"
 cask "google-drive"
 cask "iterm2"
