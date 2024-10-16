@@ -2,4 +2,5 @@
 set -e
 
 cp ~/.local/share/mac-os-setup/configs/.zshrc ~
+zsh
 source ~/.zshrc
