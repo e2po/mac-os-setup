@@ -1,3 +1,6 @@
+brew "zsh-autocomplete"
+brew "zsh-syntax-highlighting"
+
 cask "figma"
 cask "flipper"
 cask "font-jetbrains-mono"
