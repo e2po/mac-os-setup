@@ -8,3 +8,7 @@ cask "google-drive"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "visual-studio-code"
+
+vscode "dracula-theme.theme-dracula"
+vscode "ms-python.python"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
