@@ -10,9 +10,6 @@ jobs:
   integration:
     name: Integration
     runs-on: macos-latest
-    defaults:
-      run:
-        shell: zsh {0}
     steps:
       - name: Check out the codebase
         uses: actions/checkout@v4
