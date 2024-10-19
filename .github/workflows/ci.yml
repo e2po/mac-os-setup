@@ -28,4 +28,4 @@ jobs:
 
       - name: Test install script
         run: . ~/.local/share/mac-os-setup/install.sh
-        shell: zsh
+        shell: zsh {0}
