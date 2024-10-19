@@ -1,5 +1,4 @@
-brew "zsh-autocomplete"
-brew "zsh-syntax-highlighting"
+brew "zplug"
 
 cask "figma"
 cask "flipper"
