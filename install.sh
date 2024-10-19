@@ -11,4 +11,4 @@ source ~/.local/share/mac-os-setup/install/homebrew.sh
 source ~/.local/share/mac-os-setup/install/brewfile.sh
 
 # Install Dotfiles
-source ~/.local/share/mac-os-setup/install/dotfiles.sh
+zsh ~/.local/share/mac-os-setup/install/dotfiles.sh
