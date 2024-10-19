@@ -10,6 +10,9 @@ jobs:
   integration:
     name: Integration
     runs-on: macos-latest
+    defaults:
+      run:
+        shell: zsh {0}
     steps:
       - name: Check out the codebase
         uses: actions/checkout@v4
@@ -28,4 +31,3 @@ jobs:
 
       - name: Test install script
         run: . ~/.local/share/mac-os-setup/install.sh
-        shell: zsh {0}
